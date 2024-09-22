@@ -1,3 +1,45 @@
 <resources>
     <string name="app_name">MyBenAlien</string>
+
+    <string name="alien_name">Nama Alien</string>
+    <string name="description">Deskripsi</string>
+
+    <string-array name="data_name">
+        <item>Heatblast</item>
+        <item>Wildmutt</item>
+        <item>Diamondhead</item>
+        <item>XLR8</item>
+        <item>Grey Matter</item>
+        <item>Four Arms</item>
+        <item>Stinkfly</item>
+        <item>Ripjaws</item>
+        <item>Upgrade</item>
+        <item>Ghostfreak</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Heatblast is a plasma-based life-form humanoid alien whose body is composed of a super hot inner plasma body covered by dark reddish brown volcanic rocks. He is seven feet tall. As a fire-based entity, his body radiates high amounts of heat. His feet have a slight oval-like design with only two toes and one back toe and he has somewhat large hands with bridged wrists. His tongue is also made of fire while his collarbone resembles a volcano which generates a fiery hair-like aura that covers his head, leaving his mask-like face visible with no nose, ears, or pupils.</item>
+        <item>Wildmutt appears to be a large orange dog-like creature with no eyes, ears, nose, or tail. He stands on all fours and his movements are somewhat apelike. His teeth are very defined and his bottom jaw sticks out of his mouth. The various spines found all across his body function similarly to whiskers with tactile sensing, and are not fur. Since Wildmutt has no eyes, he uses his sense of smell and hearing to navigate, which are aided by three gill-like nostrils located on each side of his neck.</item>
+        <item>Being a silicon-based life form, Diamondhead\'s body is composed entirely of pale green or blue crystals, which are of a very tough and durable diamond-like substance. He sports four crystal shards on his back and has a sharp head.</item>
+        <item>XLR8 resembles a semi-armored Velociraptor. He has black orbs on his feet, a black tail with five blue stripes, and bulky claws on his 3 fingers that can only open and close. He wears a black cone-like helmet with a protective visor that slides over his face (that is part of his Kineceleran biology and not mechanical). When the visor is lifted, one can see his blue face, green eyes, black lips, and stripes running under and in between his eyes; the rest of his head\'s features are unknown. XLR8 wears a black bodysuit and turtleneck-like shirt with a white stripe on the center.</item>
+        <item>Grey Matter is a grey-skinned, frog-like, bipedal alien that is only six inches tall with large green eyes, which have rectangular pupils and horizontal eyelids.</item>
+        <item>Four Arms is a humanoid alien that is twelve feet tall. He has well-developed muscles, two pairs of four-fingered arms, and red skin. A black stripe goes from his chin to his lower lip, and he has four eyes: a main pair and a smaller pair below them, while he lacks ears or nose. He has whisker-like spikes on each forearm and black pants with a strap on each foot that reveals his two toes and the back of each foot.</item>
+        <item>Stinkfly has an insectoid body and four crab-like legs and two arms with three-clawed hands. He has four small eyes on long prehensile stalks connected to his large head, which can all be moved around independently from each other. On his back are two very fragile light greenish-yellow dragon-like wings with veins running through them, and his limbs are a brown-greenish color.</item>
+        <item>Ripjaws shares a number of traits with Earth\'s aquatic life, such as an alligator, an eel, a leech, an anglerfish, and a shark. He can change between a fishtail with triangular lines or legs at will and has a phosphorescent light on his head.</item>
+        <item>Upgrade has a black exterior with green stripes that resemble circuitry all over him. The green circle on his head is his eye, which glows whenever he talks. His body is made up of billions of small cell-like creatures called nanites.</item>
+        <item>Ghostfreak is a phantom/ghost-like alien with a gaseous appearance and claw-like hands, and grey skin with black lines running all over him. His skin is removable with black and white striped tentacles underneath it.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/kepala_api</item>
+        <item>@drawable/anjing</item>
+        <item>@drawable/kepala_diamon</item>
+        <item>@drawable/lari_cepat</item>
+        <item>@drawable/kodok</item>
+        <item>@drawable/tangan4</item>
+        <item>@drawable/capung</item>
+        <item>@drawable/ikan</item>
+        <item>@drawable/apgret</item>
+        <item>@drawable/hantu</item>
+    </integer-array>
 </resources>
