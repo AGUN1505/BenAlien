@@ -34,9 +34,7 @@ class DetailActivity : AppCompatActivity(), View.OnClickListener {
         }
 
 
-
-
-        val btn_Share:Button = findViewById(R.id.btshare)
+        val btn_Share: Button = findViewById(R.id.btshare)
         btn_Share.setOnClickListener(this)
 
         val tvDetaiName: TextView = findViewById(R.id.tv_detail_name)

@@ -62,9 +62,11 @@ class MainActivity : AppCompatActivity() {
             R.id.action_list -> {
                 rvAlien.layoutManager = LinearLayoutManager(this)
             }
+
             R.id.action_grid -> {
                 rvAlien.layoutManager = GridLayoutManager(this, 2)
             }
+
             R.id.about_page -> {
                 val intent = Intent(this@MainActivity, AboutActivity::class.java)
                 startActivity(intent)

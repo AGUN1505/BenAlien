@@ -24,15 +24,13 @@ class SplashScreen : AppCompatActivity() {
         }
 
         window.setFlags(
-            WindowManager.LayoutParams.FLAG_FULLSCREEN,
-            WindowManager.LayoutParams.FLAG_FULLSCREEN
+            WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
 
         supportActionBar?.hide()
 
         val imageView = findViewById<ImageView>(R.id.imageView)
-        Glide.with(this)
-            .load(R.drawable.splash) // Ganti dengan nama file GIF Anda
+        Glide.with(this).load(R.drawable.splash) // Ganti dengan nama file GIF Anda
             .into(imageView)
 
 

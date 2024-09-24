@@ -8,16 +8,18 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class ListAlienAdapter(private val listAlien: ArrayList<Alien>) : RecyclerView.Adapter<ListAlienAdapter.ListViewHolder>() {
+class ListAlienAdapter(private val listAlien: ArrayList<Alien>) :
+    RecyclerView.Adapter<ListAlienAdapter.ListViewHolder>() {
 
     class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val imgPhoto: ImageView = itemView.findViewById(R.id.img_item_photo)
         val tvName: TextView = itemView.findViewById(R.id.tv_item_name)
-        val tvDescription: TextView =itemView.findViewById(R.id.tv_item_description)
+        val tvDescription: TextView = itemView.findViewById(R.id.tv_item_description)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ListViewHolder {
-        val view: View = LayoutInflater.from(parent.context).inflate(R.layout.item_row_alien, parent, false)
+        val view: View =
+            LayoutInflater.from(parent.context).inflate(R.layout.item_row_alien, parent, false)
         return ListViewHolder(view)
     }
 
