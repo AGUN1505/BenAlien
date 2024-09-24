@@ -36,6 +36,7 @@
             android:layout_toEndOf="@id/img_item_photo"
             android:textSize="16sp"
             android:textStyle="bold"
+            android:textColor="@color/hijauben"
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toEndOf="@+id/img_item_photo"
             card_view:layout_constraintTop_toTopOf="@+id/img_item_photo"
